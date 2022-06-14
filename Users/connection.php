@@ -8,7 +8,7 @@
 <body>
 <?php 
 
-$db = mysqli_connect('localhost','root','','sourcecodester_healthcaredb');
+$db = mysqli_connect('eu-cdbr-west-02.cleardb.net','b37f55c81a0b5c','9e37d4b2','heroku_6d3bb52ac4b39b3');
 if (!$db){ 
        echo "connection failed";
 }
